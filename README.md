@@ -1,7 +1,5 @@
 # TikTok Profile Scraper - Followers, Likes & Latest Videos
 
-**Run it on Apify: [apify.com/clearfetch/tiktok-profile-scraper](https://apify.com/clearfetch/tiktok-profile-scraper)**
-
 Scrape TikTok profiles without logging in. For every username you get the account's followers, following, total
 likes, video count, bio, bio link and verified flag, plus its latest videos with views, likes, shares, comments,
 saves, post time and duration. **$1.00 per 1,000 results.** No cookies, no proxy, no browser.
@@ -79,6 +77,10 @@ An account that does not exist or cannot be read comes back as one row with `ok:
 **$1.00 per 1,000 results**: one charge per profile or video row written. Accounts that fail and videos filtered
 out by `newerThan` are free.
 
+Paid Apify plans pay less: 10% off on Bronze, 20% on Silver and 30% on Gold and higher tiers.
+
+Apify also charges a run-start fee of $0.00005 per started GB of allocated memory (minimum one event), including runs that produce no chargeable results.
+
 ## Use cases
 
 - **Influencer vetting**: followers, likes per video and posting frequency before you reach out.
@@ -103,6 +105,13 @@ for how you use the data, including data protection rules for personal data such
 Run it from the Apify API or a client library, schedule it in Apify Console, or connect it to n8n, Make,
 Zapier or any MCP client through Apify's integrations. Results are available as JSON, CSV, Excel and through
 the dataset API.
+
+## More tools from clearfetch
+
+- [TikTok Scraper](https://apify.com/clearfetch/tiktok-scraper): hashtags, profiles, sounds and video stats in one Actor
+- [TikTok Video Scraper](https://apify.com/clearfetch/tiktok-video-scraper): full stats for any video link
+- [TikTok Comments Scraper](https://apify.com/clearfetch/tiktok-comments-scraper): every comment and reply under a video
+- [Google Trends Scraper](https://apify.com/clearfetch/google-trends-scraper): interest over time, by region and related queries, plus today's trending searches
 
 ## Changelog
 
